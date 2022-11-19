@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\3D Platformer">
+      <UniqueIdentifier>{164f3a96-3543-428a-be0e-aed042614118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D Platformer\vendor">
+      <UniqueIdentifier>{33e7bef5-36b0-423f-aa7d-edf832afba98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D Platformer\Utilities">
+      <UniqueIdentifier>{6997361a-b7bd-4bc9-a751-a4cf3d589ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D Platformer\Render">
+      <UniqueIdentifier>{efd15f2d-8bd4-438a-87de-8025be5fcf31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D Platformer\Objects">
+      <UniqueIdentifier>{87ea9feb-c2cc-443b-800c-0bb626149579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D Platformer\Shaders">
+      <UniqueIdentifier>{d067e285-57d8-4b1f-95e3-4bc5675740d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D Platformer\vendor\Dear ImGui">
+      <UniqueIdentifier>{4e601a7c-f3ff-414a-ada3-72f5b08fe658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D Platformer\Physics">
+      <UniqueIdentifier>{571fe9f9-4165-4af6-b0b4-7674fc822b31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Platformer\3D Platformer.cpp">
+      <Filter>Source Files\3D Platformer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Platformer\vendor\glad.c">
+      <Filter>Source Files\3D Platformer\vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Platformer\Utilities\shader.cpp">
+      <Filter>Source Files\3D Platformer\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Platformer\Utilities\resource_manager.cpp">
+      <Filter>Source Files\3D Platformer\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Platformer\Render\renderer.cpp">
+      <Filter>Source Files\3D Platformer\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Platformer\Objects\game_object.cpp">
+      <Filter>Source Files\3D Platformer\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Platformer\Objects\cube_object.cpp">
+      <Filter>Source Files\3D Platformer\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Platformer\Objects\camera_object.cpp">
+      <Filter>Source Files\3D Platformer\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Platformer\Objects\player_object.cpp">
+      <Filter>Source Files\3D Platformer\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Platformer\vendor\Dear ImGui\imgui_impl_glfw.cpp">
+      <Filter>Source Files\3D Platformer\vendor\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Platformer\vendor\Dear ImGui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\3D Platformer\vendor\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Platformer\vendor\Dear ImGui\imgui_tables.cpp">
+      <Filter>Source Files\3D Platformer\vendor\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Platformer\vendor\Dear ImGui\imgui_widgets.cpp">
+      <Filter>Source Files\3D Platformer\vendor\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Platformer\vendor\Dear ImGui\imgui.cpp">
+      <Filter>Source Files\3D Platformer\vendor\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Platformer\vendor\Dear ImGui\imgui_draw.cpp">
+      <Filter>Source Files\3D Platformer\vendor\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Platformer\Physics\physics_engine.cpp">
+      <Filter>Source Files\3D Platformer\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\3D Platformer\Objects\cube_array_object.cpp">
+      <Filter>Source Files\3D Platformer\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\3D Platformer\3D Platformer.h">
+      <Filter>Source Files\3D Platformer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Platformer\Utilities\shader.h">
+      <Filter>Source Files\3D Platformer\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Platformer\Utilities\resource_manager.h">
+      <Filter>Source Files\3D Platformer\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Platformer\Render\renderer.h">
+      <Filter>Source Files\3D Platformer\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Platformer\Objects\game_object.h">
+      <Filter>Source Files\3D Platformer\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Platformer\Objects\cube_object.h">
+      <Filter>Source Files\3D Platformer\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Platformer\Objects\player_object.h">
+      <Filter>Source Files\3D Platformer\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Platformer\Objects\camera_object.h">
+      <Filter>Source Files\3D Platformer\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Platformer\vendor\Dear ImGui\imgui_impl_glfw.h">
+      <Filter>Source Files\3D Platformer\vendor\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Platformer\vendor\Dear ImGui\imgui_impl_opengl3.h">
+      <Filter>Source Files\3D Platformer\vendor\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Platformer\vendor\Dear ImGui\imgui_impl_opengl3_loader.h">
+      <Filter>Source Files\3D Platformer\vendor\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Platformer\vendor\Dear ImGui\imgui_internal.h">
+      <Filter>Source Files\3D Platformer\vendor\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Platformer\vendor\Dear ImGui\imstb_rectpack.h">
+      <Filter>Source Files\3D Platformer\vendor\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Platformer\vendor\Dear ImGui\imstb_textedit.h">
+      <Filter>Source Files\3D Platformer\vendor\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Platformer\vendor\Dear ImGui\imstb_truetype.h">
+      <Filter>Source Files\3D Platformer\vendor\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Platformer\vendor\Dear ImGui\imconfig.h">
+      <Filter>Source Files\3D Platformer\vendor\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Platformer\vendor\Dear ImGui\imgui.h">
+      <Filter>Source Files\3D Platformer\vendor\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Platformer\Physics\physics_engine.h">
+      <Filter>Source Files\3D Platformer\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\3D Platformer\Objects\cube_array_object.h">
+      <Filter>Source Files\3D Platformer\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\3D Platformer\Shaders\cube - vertex.glsl">
+      <Filter>Source Files\3D Platformer\Shaders</Filter>
+    </None>
+    <None Include="source\3D Platformer\Shaders\cube - fragment.glsl">
+      <Filter>Source Files\3D Platformer\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
